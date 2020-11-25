@@ -77,7 +77,6 @@ button:hover {
 /* Main Layout */
 section {
   position: relative;
-    min-height: 100vh;
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -102,7 +101,7 @@ div {
 
 
 footer {
-  background-color: var(--mainColor5);
+  background-color: rgba(255, 255, 255, 0.777);
   position: relative;
   padding: 20px;
   padding-left: 50px;
@@ -110,10 +109,26 @@ footer {
   margin-left: 0px;
   margin-right: 0px;
   overflow: hidden;
-  color: var(--mainColor3);
-  text-align: center;
+  color: black;
+  border-top: 3px solid yellow;
 }
 
+
+/* a link */
+a {
+   text-decoration: none;
+   font-family: 'Oswald', sans-serif;
+    }
+a:hover {
+   color: blue;
+   }
+footer a {
+   text-decoration: none;
+	 color: red;
+	 background-color: yellow;
+	 padding: 5px;
+	 border-radius: 10px;
+}
 
 
 
