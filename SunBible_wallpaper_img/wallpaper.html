@@ -3,7 +3,7 @@
 <head>
 <title>Bible Wallpaper</title>
 <link rel="icon" href="../Main_IMG/SNBible.png">
-
+<link rel="manifest" href="WebAppManifest.json">
 <style>
   @import url('wallpaper.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -381,7 +381,14 @@
 
 
 
-
+<!-- Service worker for web app -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('sw.js', { scope: '/SunBible_IMG_Library/' })
+      .then(function () { console.log("Service Worker Registered"); });
+  }
+</script>
 
 
     </body>

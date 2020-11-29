@@ -1,0 +1,24 @@
+{
+  "name": "SunBible WallPaper",
+  "manifest_version": 2,
+  "author": "The SunShining",
+  "icons": [
+    {
+      "src": "../Main_IMG/SNBible.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "../Main_IMG/SNBible.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+ 
+  "start_url": "wallpaper.html",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/sunshining-photography/",
+  "theme_color": "#3367D6"
+  
+}
