@@ -13,6 +13,7 @@ self.addEventListener('install', e => {
         '/SunBible_IMG_Library/',
         '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html',
         '/SunBible_IMG_Library/Main_IMG/SNBible.png',
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper_pwa/js/jquery-3.5.1.min.js'
 ])
           .then(() => self.skipWaiting());
     })

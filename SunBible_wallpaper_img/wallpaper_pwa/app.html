@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SunBible WallPaper</title>
+        <link rel="icon" href="../../Main_IMG/SNBible.png">
+        <link rel="manifest" href="../WebAppManifest.json">
+<style>
+    @import url('css/app.css');
+</style>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/app.js"></script>
+
+
+    </head>
+
+    <body>
+<nav>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+    <a>Psalm 1</a><br/>
+</nav>
+
+        <h1>SunBible WallPaper!</h1>
+        <p>Click to download!</p>
+<hr class="rounded" />
+
+<a href="" download="WallPaper">
+    <img src="../Genesis27_28.png" class="img" />
+</a>
+
+
+
+
+<hr class="rounded"/>
+<p>
+If this page is not updated find the rest of the SunBible wallpaper 
+<a href="../wallpaper.html">here</a>.
+</p>
+
+
+
+
+
+
+
+<!-- Service worker for web app -->
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('../sw.js', { scope: '/SunBible_IMG_Library/' })
+            .then(function () { console.log("Service Worker Registered"); });
+    }
+</script>
+
+
+
+
+    </body>
+</html>

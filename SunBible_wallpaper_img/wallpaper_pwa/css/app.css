@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(255, 0, 0, 0.5);
+    padding-left: 110px;
+}
+nav {
+    background-color: grey;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    display: none;
+}
+nav a {
+    text-align: right;
+    background-color: white;
+    width: 100px;
+    margin-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: rgb(255, 255, 177);
+}
+img {
+    width: 100%
+}
+a img {
+    width: 170px;
+    padding: 0px;
+    float: left;
+    margin: 3px;
+    border: 3px solid rgba(255, 255, 0, 0.384);
+}
+a img:hover {
+    border: 3px solid yellow;
+    max-width: 170px;
+}
+
+/* Rounded border */
+  hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 100%;
+  }

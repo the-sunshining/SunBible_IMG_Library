@@ -15,7 +15,7 @@
     }
   ],
  
-  "start_url": "wallpaper.html",
+  "start_url": "/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper_pwa/app.html",
   "background_color": "#3367D6",
   "display": "standalone",
   "scope": "/SunBible_IMG_Library/",
