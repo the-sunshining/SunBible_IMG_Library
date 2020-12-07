@@ -4,12 +4,12 @@
   "author": "The SunShining",
   "icons": [
     {
-      "src": "../Main_IMG/SNBible.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../Main_IMG/SNBible.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }

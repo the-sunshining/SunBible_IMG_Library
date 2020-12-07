@@ -12,8 +12,18 @@ self.addEventListener('install', e => {
       return cache.addAll([
         '/SunBible_IMG_Library/',
         '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html',
-        '/SunBible_IMG_Library/Main_IMG/SNBible.png',
-        '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper_pwa/js/jquery-3.5.1.min.js'
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/logo.png',
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper_pwa/js/jquery-3.5.1.min.js',
+
+
+
+        'Psalm_Slides/Psalm1/Psalm1.png',
+        'Psalm_Slides/Psalm1/Psalm1_1.png',
+        'Psalm_Slides/Psalm1/Psalm1_2.png',
+        'Psalm_Slides/Psalm1/Psalm1_3.png',
+        'Psalm_Slides/Psalm1/Psalm1_4.png',
+        'Psalm_Slides/Psalm1/Psalm1_5.png',
+        'Psalm_Slides/Psalm1/Psalm1_6.png'
 ])
           .then(() => self.skipWaiting());
     })
