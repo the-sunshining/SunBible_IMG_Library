@@ -1,5 +1,5 @@
 {
-  "name": "SunBible WallPaper",
+  "name": "WallPaper",
   "manifest_version": 2,
   "author": "The SunShining",
   "icons": [
@@ -16,9 +16,9 @@
   ],
  
   "start_url": "/SunBible_IMG_Library/SunBible_wallpaper_img/app.html",
-  "background_color": "#3367D6",
+  "background_color": " #ff000080",
   "display": "standalone",
   "scope": "/SunBible_IMG_Library/SunBible_wallpaper_img/",
-  "theme_color": "#3367D6"
+  "theme_color": " #ff000080"
   
 }
