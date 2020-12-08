@@ -4,12 +4,12 @@
   "author": "The SunShining",
   "icons": [
     {
-      "src": "W.png",
+      "src": "img/W.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "W.png",
+      "src": "img/W.png",
       "type": "image/png",
       "sizes": "512x512"
     }
