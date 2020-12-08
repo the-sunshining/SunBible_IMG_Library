@@ -12,8 +12,9 @@ self.addEventListener('install', e => {
       return cache.addAll([
         '/SunBible_IMG_Library/',
         '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper.html',
-        '/SunBible_IMG_Library/SunBible_wallpaper_img/logo.png',
-        '/SunBible_IMG_Library/SunBible_wallpaper_img/wallpaper_pwa/js/jquery-3.5.1.min.js',
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/app.html',
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/W.png',
+        '/SunBible_IMG_Library/SunBible_wallpaper_img/js/jquery-3.5.1.min.js',
 
 
 
