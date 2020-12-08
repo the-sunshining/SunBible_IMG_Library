@@ -167,7 +167,7 @@ footer a {
 
         /* Special wallpaper css and and animations */
 
-      .WallpaperIMG {
+      .WallpaperIMG, .img {
         width: 30%;
         float: left;
         border: 5px solid yellow;

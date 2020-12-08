@@ -1,5 +1,5 @@
 body {
-    background-color: #ff000080;
+    background-color: rgba(255, 0, 0, 0.502); /*  #ff000080 */
     padding-left: 110px;
 }
 nav {
