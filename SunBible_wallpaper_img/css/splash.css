@@ -20,7 +20,7 @@
     20% {opacity: 0.75;}
     40% {opacity: 0.50;}
     60% {opacity: 0.25;}
-    80% {opacity: 0;}
+    80% {opacity: 0; z-index: 5;}
     100% {opacity: 0; display: none; z-index: -10;}
 }
 
