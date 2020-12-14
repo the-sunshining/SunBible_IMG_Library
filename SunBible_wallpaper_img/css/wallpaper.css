@@ -36,6 +36,7 @@ p {
 }
 img {
   max-width: 100%;
+  content-visibility: auto; /* works in chome 85 and above 8*/
 }
 
 header {

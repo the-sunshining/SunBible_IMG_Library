@@ -24,7 +24,9 @@ nav a:hover {
     background-color: rgb(255, 255, 177);
 }
 img {
-    width: 100%
+    width: 100%;
+    content-visibility: auto; /* works in chome 85 and above 8*/
+   /* contain-intrinsic-size: 95.6249999997px;  */
 }
 a img {
     width: 170px;
