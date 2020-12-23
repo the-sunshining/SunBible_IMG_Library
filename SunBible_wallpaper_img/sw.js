@@ -4,7 +4,7 @@
  *
  */
 
-const version = "0.1.02";
+const version = "0.1.03";
 const cacheName = 'img-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
