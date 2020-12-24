@@ -4,7 +4,7 @@
  *
  */
 
-const version = "0.1.03";
+const version = "0.1.04";
 const cacheName = 'img-${version}';
 self.addEventListener('install', e => {
   e.waitUntil(
@@ -106,6 +106,58 @@ self.addEventListener('install', e => {
         "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm10_1-3.jpg",
         "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm10_16.jpg",
         "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm10_4-11.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm11/Psalm11_1-2.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm11/Psalm11_3-4.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm11/Psalm11_5-7.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm11/Psalm11.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12_1-2.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12_5.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12_7-8.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12_3-4.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12_6.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm12/Psalm12.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm13/Psalm13.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm14/Psalm14.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm15/Psalm15.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16_1.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16_2-4.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16_8.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16_5-7.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm16/Psalm16_9-11.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_10-12.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_13-14.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_3-5.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_8-9.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_1-2.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_15.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm17/Psalm17_6-7.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_13-15.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_20-24.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_35-39.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_4-8.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_1-3.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_25-30.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_40-45.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_9-12.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_16-19.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_31-34.jpg",
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm18/Psalm18_46-50.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm19/Psalm19.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm20/Psalm20.jpg",
+
+        "/SunBible_IMG_Library/SunBible_wallpaper_img/Psalm_Slides/PsalmPsalm10/Psalm21/Psalm21.jpg",
+
 
 
 
